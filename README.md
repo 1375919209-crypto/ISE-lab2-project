@@ -50,25 +50,35 @@ python src/improvement_distribution_png.py
 
 ## Output
 
-The main output files are:
+The project generates the following outputs:
 
 ### Baseline (Linear Regression)
-- `results/results_baseline/baseline_linear_regression_all_runs.csv`
-- `results/results_baseline/baseline_linear_regression_summary.csv`
-- `results/results_baseline/baseline_linear_regression_overall.csv`
+- `baseline_linear_regression_all_runs.csv`  
+  Results of all runs across datasets
+- `baseline_linear_regression_summary.csv`  
+  Dataset-level averaged results
+- `baseline_linear_regression_overall.csv`  
+  Overall aggregated performance
 
 ### Random Forest
-- `results/results_random_forest/random_forest_all_runs.csv`
-- `results/results_random_forest/random_forest_summary.csv`
-- `results/results_random_forest/random_forest_overall.csv`
+- `random_forest_all_runs.csv`  
+  Results of all runs across datasets
+- `random_forest_summary.csv`  
+  Dataset-level averaged results
+- `random_forest_overall.csv`  
+  Overall aggregated performance
 
 ### Comparison and Statistical Analysis
-- `results/results_comparison/baseline_vs_rf_summary_comparison.csv`
-- `results/results_comparison/baseline_vs_rf_wilcoxon.csv`
-- `results/results_comparison/baseline_vs_rf_overall_report.csv`
+- `baseline_vs_rf_summary_comparison.csv`  
+  Dataset-level comparison and improvement percentages
+- `baseline_vs_rf_wilcoxon.csv`  
+  Wilcoxon signed-rank test results
+- `baseline_vs_rf_overall_report.csv`  
+  Overall comparison summary
 
 ### Visualization
-- `figures/improvement_distribution.png`
+- `figures/improvement_distribution.png`  
+  Boxplot showing improvement distribution across datasets
 
 ## Reproducibility
 
