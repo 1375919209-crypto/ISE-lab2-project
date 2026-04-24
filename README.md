@@ -12,7 +12,7 @@ The goal is to predict performance metrics (e.g., runtime) of unseen configurati
 
 ## Project Structure
 
-```text
+
 datasets/                 Original Lab 2 datasets
 figures/                  Generated figures
 results/
