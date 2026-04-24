@@ -1,0 +1,2 @@
+n_systems,n_datasets,n_total_runs,MAPE_mean_across_all_runs,MAPE_std_across_all_runs,MAE_mean_across_all_runs,MAE_std_across_all_runs,RMSE_mean_across_all_runs,RMSE_std_across_all_runs,MAPE_mean_of_dataset_means,MAE_mean_of_dataset_means,RMSE_mean_of_dataset_means
+9,93,2790,39.61217464333557,141.32066921081602,41.12891282275783,143.73072221251735,56.18297405556805,190.6333596962992,39.612174643335564,41.12891282275783,56.182974055568025
